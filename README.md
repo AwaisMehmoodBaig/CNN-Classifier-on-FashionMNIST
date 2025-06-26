@@ -26,13 +26,14 @@ The CNN consists of:
 Input  → Conv2d → ReLU → MaxPool →
         Conv2d → ReLU → MaxPool →
         Flatten → Linear → Output
-
+---
 # 📦 Installation
 
 Install required packages (if not already):
 
 pip install torch torchvision matplotlib
 
+---
 # 📊 Dataset Description
 
 0: T-shirt/top     5: Sandal
@@ -41,6 +42,7 @@ pip install torch torchvision matplotlib
 3: Dress           8: Bag
 4: Coat            9: Ankle boot
 
+---
 # 🏋️ Training Summary
 
 Loss Function: CrossEntropyLoss
